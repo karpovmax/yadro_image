@@ -1,2 +1,2 @@
 FROM vbelavin/full-latex-scheme:latest
-RUN apt-get install python3-ghostscript 
+RUN apt-get -y install ghostscript 
